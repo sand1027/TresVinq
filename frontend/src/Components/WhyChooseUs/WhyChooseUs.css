@@ -1,0 +1,82 @@
+/* Section Styles */
+
+.Why_choose_us_container {
+  background-color: #f9f9f9;
+  height: 6rem;
+  margin-bottom: 2rem;
+}
+
+.why-choose-us__heading {
+  font-size: 32px;
+
+  margin-left: 5rem;
+  color: #333;
+  position: relative;
+  top: 20px;
+  font-weight: 500;
+}
+.why-choose-us__heading::after {
+  content: "";
+  display: block;
+  width: 80px; /* Adjust the width of the underline */
+  height: 4px; /* Adjust the thickness of the underline */
+  background-color: #007bff; /* The color of the underline */
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  border-radius: 2px; /* Optional: rounded edges */
+}
+
+/* Grid Layout */
+.why-choose-us__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Card Styles */
+.why-choose-us__card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.why-choose-us__card:hover {
+  transform: translateY(-5px);
+}
+
+/* Icon Styles */
+.why-choose-us__icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* Title and Description Styles */
+.why-choose-us__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.why-choose-us__description {
+  font-size: 14px;
+  color: #666;
+}
+@media screen and (max-width: 720px) {
+  .why-choose-us__heading {
+    font-size: 22px;
+    margin: 0;
+    margin-left: 1rem;
+  }
+  .why-choose-us__heading::after {
+    width: 10%;
+    top: 30px;
+  }
+}

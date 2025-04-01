@@ -1,0 +1,27 @@
+.vision {
+  padding: 40px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.vision-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vision-text {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .vision-title {
+    font-size: 2rem;
+  }
+
+  .vision-text {
+    font-size: 1.2rem;
+  }
+}

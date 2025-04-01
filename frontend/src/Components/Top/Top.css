@@ -1,0 +1,39 @@
+/* ScrollToTopButton.css */
+
+/* Basic styling for the scroll-to-top button */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 700px; /* Default for larger screens */
+  background-color: transparent;
+  color: red;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 40px; /* Larger font for desktop */
+  z-index: 1000;
+  transition: opacity 0.3s ease;
+  opacity: 0.7;
+}
+
+/* Hide the button initially */
+.scroll-to-top-btn.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Make the button responsive for screens smaller than 480px */
+@media (max-width: 480px) {
+  .scroll-to-top-btn {
+    right: 175px; /* Closer to the edge */
+    bottom: 50px; /* Stay fixed at the bottom */
+    font-size: 35px; /* Smaller font for mobile */
+    padding: 10px; /* Adjust padding for mobile */
+    background-color: transparent; /* Ensure the background is transparent */
+    /* Change the color for mobile, if needed */
+    position: fixed; /* Keep the button fixed */
+    z-index: 1000;
+    opacity: 0.4;
+  }
+}

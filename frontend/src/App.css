@@ -1,0 +1,12 @@
+:root {
+  --color1: #bc0404;
+  --color2: #0573c3;
+  --color3: #c40505;
+  ---color4: #6eacda;
+}
+a {
+  color: white;
+}
+.footer-app {
+  margin-top: 2rem;
+}

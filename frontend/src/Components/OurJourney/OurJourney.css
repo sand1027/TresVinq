@@ -1,0 +1,52 @@
+.journey {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.journey-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.journey-timeline {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.journey-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.journey-year {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.journey-event {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .journey-title {
+    font-size: 2rem;
+  }
+
+  .journey-item {
+    padding: 8px 0;
+  }
+
+  .journey-year {
+    font-size: 1.2rem;
+  }
+
+  .journey-event {
+    font-size: 1rem;
+  }
+}

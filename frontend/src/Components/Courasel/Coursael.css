@@ -1,0 +1,84 @@
+.carousel-container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.carousel-slide img {
+  width: 77%;
+  height: 23rem;
+  border-radius: 10px; /* Optional: To give rounded corners */
+}
+.slider {
+  display: flex;
+  align-items: center;
+}
+.c-imgContainer {
+  width: 50%;
+}
+.c-contents {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.slider-btn {
+  padding: 0.8rem;
+  width: 7rem;
+  font-weight: 600;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 5px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%; /* Adjust the position of the button */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .c-imgContainer,
+  .c-contents {
+    flex: 1 1 100%; /* Take full width */
+  }
+  .slider {
+    align-items: start;
+  }
+  .c-contents {
+    font-size: 12px;
+  }
+  .carousel-container {
+    top: -2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    padding: 10px; /* Reduce padding on very small screens */
+  }
+
+  .slider-btn {
+    padding: 0.5rem 0.8rem;
+    font-size: 14px; /* Adjust button size */
+  }
+
+  .carousel-slide img {
+    height: auto; /* Let image resize naturally */
+    max-height: 200px; /* Limit height for small screens */
+  }
+}

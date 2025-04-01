@@ -1,0 +1,80 @@
+.homeHeadingContainer {
+  width: 100%;
+  background-color: #f9f9f9;
+
+  padding: 1rem;
+  margin-bottom: 10px;
+}
+.homeHeadingContainer h1 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+.additionalHeading h2 {
+  color: #404040;
+  font-size: 16px !important;
+}
+.solganContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.headingContent {
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.headingContent h2 {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+.caoroselContainer {
+  height: 24rem;
+}
+@media screen and (max-width: 720px) {
+  .homeHeadingContainer {
+    position: relative;
+    top: -2.5rem;
+    margin-top: 2rem;
+    height: 11rem;
+  }
+  .homeHeadingContainer h1 {
+    font-size: 16px;
+  }
+  .headingContent h2 {
+    font-size: 12px;
+    width: 10rem;
+  }
+  .additionalHeading h2 {
+    font-size: 12px !important;
+    width: 10rem;
+  }
+  .solganContainer {
+    width: 90%;
+    margin: 0;
+  }
+  .additionalHeading {
+    width: 10rem;
+  }
+  .slider {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+  }
+  .WhyChooseUs {
+    position: relative;
+    top: -11rem;
+  }
+  .IndustriesWeServe {
+    position: relative;
+    top: -10rem;
+  }
+  .OurProducts {
+    position: relative;
+    top: -9rem;
+  }
+}

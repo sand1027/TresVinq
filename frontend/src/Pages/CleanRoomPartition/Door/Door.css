@@ -1,0 +1,174 @@
+.doorUl li {
+  list-style: circle;
+}
+.doorP {
+  width: 142%;
+  height: 6rem;
+}
+.door-types-container {
+  padding: 20px;
+  margin: 0 auto;
+
+  width: 50rem;
+}
+
+.door-types-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.door-types-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.door-types-table th,
+.door-types-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.door-types-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.door-types-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.door-types-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.door-types-table td {
+  color: #555;
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .door-types-table {
+    font-size: 14px;
+  }
+
+  .door-types-container {
+    padding: 10px;
+    width: 20rem;
+  }
+
+  .door-types-table th,
+  .door-types-table td {
+    padding: 8px;
+  }
+
+  .door-types-header {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .door-types-table,
+  .door-types-table th,
+  .door-types-table td {
+    font-size: 12px;
+  }
+
+  .door-types-header {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .doorP {
+    width: 21rem;
+    margin-bottom: 3rem;
+  }
+  .door-container {
+    margin-top: -13rem;
+  }
+}
+/* Container Styles */
+.accessories-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 55rem;
+}
+
+/* Header Styles */
+.accessories-header {
+  font-size: 24px;
+  font-weight: bold;
+
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Accessories List */
+.accessories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Individual Item */
+.accessories-item {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.accessories-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Category Title */
+.accessories-category {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* List Styles */
+.accessories-item ul {
+  list-style-type: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.accessory-detail {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .accessories-container {
+    padding: 15px;
+    width: 18rem;
+  }
+
+  .accessories-header {
+    font-size: 20px;
+  }
+
+  .accessories-category {
+    font-size: 16px;
+  }
+
+  .accessory-detail {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,10 @@
+.pannel-details-slider-contaainer1 {
+  position: sticky !important;
+  top: 140px !important; /* Adjust to the point where it should stick */
+  z-index: 10 !important;
+}
+@media screen and (max-width: 768px) {
+  .pannel-details-slider-contaainer1 {
+    position: relative;
+  }
+}

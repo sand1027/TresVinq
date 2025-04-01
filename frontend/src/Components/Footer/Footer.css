@@ -1,0 +1,169 @@
+:root {
+  --color1: #bc0404;
+  --color2: #0573c3;
+  --color3: #c40505;
+}
+
+.footer {
+  background-color: #000000;
+  color: #f3f4f6;
+  padding: 4rem 2rem 2rem;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.footer-section {
+  padding: 1rem;
+}
+
+.company-logo {
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.company-title {
+  color: var(--color1);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-section h3 {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.footer-section p {
+  color: #9ca3af;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.contact-info p {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-link {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.contact-link:hover {
+  color: var(--color2);
+}
+
+.quick-links,
+.products-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.quick-links a,
+.products-list a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: inline-block;
+}
+
+.quick-links a:hover,
+.products-list a:hover {
+  color: var(--color2);
+  transform: translateX(5px);
+}
+
+.left-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.products-section {
+  border-left: 1px solid #333;
+  padding-left: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+}
+
+.social-icons a:hover {
+  color: var(--color2);
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  text-align: center;
+  border-top: 1px solid #1a1a1a;
+  color: #9ca3af;
+  font-size: 0.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.developer-credit {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.developer-link {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.developer-link:hover {
+  color: var(--color2);
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+
+  .products-section {
+    border-left: none;
+    padding-left: 1rem;
+    border-top: 1px solid #333;
+    padding-top: 2rem;
+  }
+
+  .company-logo {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
