@@ -6,15 +6,24 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   const contactInfo = [
     {
+      branch: "Factory Address : ",
       type: "address",
-      value: "123 Business Street, Suite 100, City, State 12345",
-      link: "https://maps.google.com/?q=123+Business+Street+Suite+100+City+State+12345",
+      value:
+        "Plot.No 150, SIDCO Industrial Estate, Billanakuppam Post, Krishnagiri-635115. Tamil Nadu.",
+      link: "https://maps.app.goo.gl/8hPuCrMJELmGi6eX9",
     },
-    { type: "phone", value: "+1 (555) 123-4567", link: "tel:+15551234567" },
+    {
+      branch: "Banglore Office : ",
+      type: "address",
+      value:
+        "Shop.No 7 & 8, PM Complex, Sarjapura Main Road, Attibele, Banglore-562107. Karnataka.",
+      link: "https://maps.app.goo.gl/mh3yy4ueovixysPu8",
+    },
+    { type: "phone", value: "+91 7259950955", link: "tel:+917259950955" },
     {
       type: "email",
-      value: "contact@company.com",
-      link: "mailto:contact@company.com",
+      value: "contactus@tresvinq.com",
+      link: "mailto:contactus@tresvinq.com",
     },
   ];
 
@@ -53,6 +62,8 @@ const Footer = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
+                  <h4>{item.branch}</h4>
+
                   {item.value}
                 </a>
               </p>
