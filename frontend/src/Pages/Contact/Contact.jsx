@@ -64,29 +64,38 @@ const Contact = () => {
                 reach out to us for any queries.
               </p>
               <div className="contact-us-locators">
-                <h2>Office Address</h2>
+                <h2>Factory Address : </h2>
                 <a
-                  href="https://www.google.com/maps"
+                  href="https://maps.app.goo.gl/8hPuCrMJELmGi6eX9"
                   target="blank"
                   className="office-a"
                 >
-                  No. 7 & 8, PM Complex, Sarjapura Main Road, Attibele,
-                  Bengaluru - 562107
+                  Plot.No 150, SIDCO Industrial Estate, Billanakuppam Post,
+                  Krishnagiri-635115. Tamil Nadu.
+                </a>
+              </div>
+              <div className="contact-us-locators">
+                <h2>Banglore Office : </h2>
+                <a
+                  href="https://maps.app.goo.gl/mh3yy4ueovixysPu8"
+                  target="blank"
+                  className="office-a"
+                >
+                  Shop.No 7 & 8, PM Complex, Sarjapura Main Road, Attibele,
+                  Banglore-562107. Karnataka.
                 </a>
               </div>
               <div className="contact-us-locators">
                 <h2>Call Us</h2>
-                <a href="tel:+919445331669">9445331669</a>
+                <a href="tel:+917259950955" className="mobile">
+                  7259950955
+                </a>
               </div>
               <div className="contact-us-locators">
                 <h2>Email</h2>
                 <a href="mailto:contactus@tresengg.com">
-                  contactus@tresengg.com
+                  contactus@tresvinq.com
                 </a>
-              </div>
-              <div className="contact-us-locators">
-                <h2>Web</h2>
-                <a href="https://www.tresengg.com/">www.tresengg.com</a>
               </div>
             </div>
           </div>

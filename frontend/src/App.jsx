@@ -26,6 +26,7 @@ import Enclousers from "./Pages/Enclousers/Enclousers";
 import ModularCleanRoom from "./Pages/ModularCleanRoom/ModularCleanRoom";
 import CleanRoomFurnitures from "./Pages/CleanRoomFurnitures/CleanRoomFurnitures";
 import Blog from "./Pages/Blog/Blog";
+import MessageComponent from "./Components/Message/Message";
 
 /* In your main CSS file */
 
@@ -59,6 +60,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
       </Routes>
       <Top />
+      <MessageComponent />
       <div className="footer-app">
         <Footer />
       </div>

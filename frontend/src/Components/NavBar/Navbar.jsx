@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import Book from "../Book/Book";
 import { assets } from "../../assets/assets";
 
 const Navbar = () => {
@@ -101,6 +102,10 @@ const Navbar = () => {
         </div>
 
         <div className="nav-right">
+          <div className="openBookBtn">
+            <Book />
+          </div>
+
           <div className="nav-contactus">
             <button className="nav-btn">Contact us</button>
           </div>
@@ -141,7 +146,7 @@ const Navbar = () => {
                 setShowDropdown(false);
               }}
             >
-              OUR PRODUCTS
+              Our Products
             </Link>
 
             {showDropdown && (
